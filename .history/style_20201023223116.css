@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    background-color: rgba(39, 41, 68);
+    font-family: 'Times New Roman', Times, serif;
+}
+.score{
+    color: rgba(224, 224, 224);
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.score h2 {
+    font-size: 30px;
+}
+.score p {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
